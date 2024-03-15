@@ -11,6 +11,7 @@
   </head>
 
   <body>
+    @include()
     <h1>Ciao</h1>
   </body>
 
