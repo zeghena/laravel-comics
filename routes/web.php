@@ -15,7 +15,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
 
-    $comics = config("comics.0.title");
+    $comics = config("comics.0.series");
     dd($comics);
 
 
